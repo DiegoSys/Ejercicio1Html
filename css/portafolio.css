@@ -1,0 +1,51 @@
+/* Estilo de fondo y texto */
+body {
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor centrado */
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Encabezado principal */
+h1 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+/* Estilos para títulos de secciones */
+h2 {
+    color: #004d40;
+    margin-top: 20px;
+}
+
+/* Imagen de perfil con margen y borde redondeado */
+.img {
+    border-radius: 50%;
+    margin: 15px;
+    width: 250px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004d40;
+}
+ul, ol {
+    text-align: left;
+}
+
+.container > footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: beige;
+    align-content: center;
+}
